@@ -2,7 +2,6 @@ use serde::{Serialize,Deserialize};
 use yew::prelude::*;
 use reqwasm::http::Request;
 use js_sys::JsString;
-use web_sys::console;
 use substring::Substring;
 
 #[derive(Serialize, Deserialize, PartialEq, Debug, Clone)]
